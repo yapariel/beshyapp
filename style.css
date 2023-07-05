@@ -16,8 +16,7 @@ img {
 }
 
 input[type="text"] {
-  width: 100%;
-  max-width: 450px;
+  width: 500px;
   padding: 10px;
   font-size: 16px;
   background-color: aliceblue;
@@ -33,8 +32,7 @@ input[type="text"] {
 }
 
 #copyBtn {
-  width: 100%;
-  max-width: 100px;
+  width: 150px;
   padding: 10px;
   margin-top: 10px;
   border-radius: 10px;
@@ -51,6 +49,7 @@ input[type="text"] {
   background-color: rgb(23, 23, 117);
   color: blanchedalmond;
 }
+
 footer {
   text-align: center;
   margin-top: 70px;
