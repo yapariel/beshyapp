@@ -8,7 +8,7 @@ copyBtn.addEventListener("click", copyText);
 
 function updateOutput() {
   const inputText = textInput.value;
-  const replacedText = inputText.replace(/ /g, "🤸");
+  const replacedText = inputText.replace(/ /g, " \uD83E\uDD38 ");
   outputDiv.innerText = replacedText;
 }
 
