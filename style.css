@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 94%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border-color: violet;
+  border-width: 3px;
+}
+
+#output {
+  margin-top: 10px;
+  padding: 30px;
+  font-size: 25px;
+}
+
+#copyBtn {
+  display: fix;
+  width: 100%;
+  max-width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f5ae09;
+  border-color: violet;
+  border-width: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#copyBtn:hover {
+  background-color: rgb(23, 23, 117);
+  color: blanchedalmond;
+}
+footer {
+  text-align: center;
+  margin-top: 70px;
+  color: #888;
+  font-size: 15px;
+}
